@@ -23,5 +23,5 @@ while True:
             print("Você digitou espaços em branco!")
         else:
             print("Digite uma opção válida!")
-    except ValueError:
+    except ValueError as e:
         print("\nOps! Esse não é um número válido para a conversão de temperatura. Tente novamente..\n")
